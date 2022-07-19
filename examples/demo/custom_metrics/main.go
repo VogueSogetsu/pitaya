@@ -6,11 +6,11 @@ import (
 	"strings"
 
 	"github.com/spf13/viper"
-	"github.com/topfreegames/pitaya/v2"
-	"github.com/topfreegames/pitaya/v2/acceptor"
-	"github.com/topfreegames/pitaya/v2/component"
-	"github.com/topfreegames/pitaya/v2/config"
-	"github.com/topfreegames/pitaya/v2/examples/demo/custom_metrics/services"
+	"pitaya"
+	"pitaya/acceptor"
+	"pitaya/component"
+	"pitaya/config"
+	"pitaya/examples/demo/custom_metrics/services"
 )
 
 var app pitaya.Pitaya

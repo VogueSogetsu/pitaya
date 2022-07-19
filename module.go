@@ -23,8 +23,8 @@ package pitaya
 import (
 	"fmt"
 
-	"github.com/topfreegames/pitaya/v2/interfaces"
-	"github.com/topfreegames/pitaya/v2/logger"
+	"pitaya/interfaces"
+	"pitaya/logger"
 )
 
 type moduleWrapper struct {

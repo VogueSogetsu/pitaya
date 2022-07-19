@@ -7,14 +7,14 @@ import (
 
 	"strings"
 
-	"github.com/topfreegames/pitaya/v2"
-	"github.com/topfreegames/pitaya/v2/acceptor"
-	"github.com/topfreegames/pitaya/v2/cluster"
-	"github.com/topfreegames/pitaya/v2/component"
-	"github.com/topfreegames/pitaya/v2/config"
-	"github.com/topfreegames/pitaya/v2/examples/demo/cluster/services"
-	"github.com/topfreegames/pitaya/v2/groups"
-	"github.com/topfreegames/pitaya/v2/route"
+	"pitaya"
+	"pitaya/acceptor"
+	"pitaya/cluster"
+	"pitaya/component"
+	"pitaya/config"
+	"pitaya/examples/demo/cluster/services"
+	"pitaya/groups"
+	"pitaya/route"
 )
 
 var app pitaya.Pitaya

@@ -3,9 +3,9 @@ package services
 import (
 	"context"
 
-	"github.com/topfreegames/pitaya/v2/component"
-	"github.com/topfreegames/pitaya/v2/examples/demo/worker/protos"
-	"github.com/topfreegames/pitaya/v2/logger"
+	"pitaya/component"
+	"pitaya/examples/demo/worker/protos"
+	"pitaya/logger"
 )
 
 // Metagame server

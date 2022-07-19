@@ -22,14 +22,14 @@ package cluster
 
 import (
 	"context"
+	"github.com/stretchr/testify/assert"
+	clientv3 "go.etcd.io/etcd/client/v3"
 	"math"
+	"pitaya/config"
+	"pitaya/constants"
+	"pitaya/helpers"
 	"testing"
 	"time"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"github.com/stretchr/testify/assert"
-	"github.com/topfreegames/pitaya/v2/config"
-	"github.com/topfreegames/pitaya/v2/constants"
-	"github.com/topfreegames/pitaya/v2/helpers"
 )
 
 var etcdSDTables = []struct {

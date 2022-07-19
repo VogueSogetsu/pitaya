@@ -23,8 +23,8 @@ package groups
 import (
 	"testing"
 
-	"github.com/topfreegames/pitaya/v2/config"
 	"go.etcd.io/etcd/tests/v3/integration"
+	"pitaya/config"
 )
 
 func setup(t *testing.T) (*integration.ClusterV3, GroupService) {

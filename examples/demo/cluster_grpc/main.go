@@ -8,16 +8,16 @@ import (
 
 	"strings"
 
-	"github.com/topfreegames/pitaya/v2"
-	"github.com/topfreegames/pitaya/v2/acceptor"
-	"github.com/topfreegames/pitaya/v2/cluster"
-	"github.com/topfreegames/pitaya/v2/component"
-	"github.com/topfreegames/pitaya/v2/config"
-	"github.com/topfreegames/pitaya/v2/constants"
-	"github.com/topfreegames/pitaya/v2/examples/demo/cluster_grpc/services"
-	"github.com/topfreegames/pitaya/v2/groups"
-	"github.com/topfreegames/pitaya/v2/modules"
-	"github.com/topfreegames/pitaya/v2/route"
+	"pitaya"
+	"pitaya/acceptor"
+	"pitaya/cluster"
+	"pitaya/component"
+	"pitaya/config"
+	"pitaya/constants"
+	"pitaya/examples/demo/cluster_grpc/services"
+	"pitaya/groups"
+	"pitaya/modules"
+	"pitaya/route"
 )
 
 var app pitaya.Pitaya

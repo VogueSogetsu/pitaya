@@ -22,16 +22,16 @@ package metrics
 
 import (
 	"fmt"
-	"github.com/topfreegames/pitaya/v2/logger"
+	"pitaya/logger"
 
 	"net/http"
 	"sync"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/topfreegames/pitaya/v2/config"
-	"github.com/topfreegames/pitaya/v2/constants"
-	"github.com/topfreegames/pitaya/v2/metrics/models"
+	"pitaya/config"
+	"pitaya/constants"
+	"pitaya/metrics/models"
 )
 
 var (

@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/topfreegames/pitaya/v2/constants"
-	"github.com/topfreegames/pitaya/v2/timer"
+	"pitaya/constants"
+	"pitaya/timer"
 )
 
 type MyCond struct{}
